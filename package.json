@@ -1,25 +1,21 @@
 {
-  "homepage":"https://MiteshBari23.github.io/Portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Varun-Visave.github.io/Portfolio-temp/",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MiteshBari23/Portfolio"
-  },
-  "main": "",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "dependencies": { 
+  "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "gh-pages": "^6.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
