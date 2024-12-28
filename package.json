@@ -1,9 +1,14 @@
 {
-  "homepage":"https://MiteshBari23.github.io/Portfolio/",
+  "homepage":"https://MiteshBari23.github.io/Portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiteshBari23/Portfolio"
+  },
+  "main": "",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
